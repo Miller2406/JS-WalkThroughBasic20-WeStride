@@ -14,6 +14,7 @@
 // output : 6 // มีจำนวนที่แตกต่างกัน 6 ตัว ถ้าซ้ำ นับแค่ 1
 
 
+function modCheck(inputArr) {
     let noDupArr = 0;
     const modArr = []
     for (let i = 0; i < inputArr.length; i++) {
